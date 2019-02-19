@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3E7B58A1CC2AC0600A0062D /* RNColorPanelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNColorPanelManager.m */; };
+		BAF00D7C221BBC30000BD0DD /* HRColorMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF00D6A221BBC2E000BD0DD /* HRColorMapView.m */; };
+		BAF00D7D221BBC30000BD0DD /* HRColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF00D6B221BBC2E000BD0DD /* HRColorPickerView.m */; };
+		BAF00D7E221BBC30000BD0DD /* HRBrightnessCursor.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF00D6F221BBC2E000BD0DD /* HRBrightnessCursor.m */; };
+		BAF00D7F221BBC30000BD0DD /* UIImage+CoreGraphics.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF00D70221BBC2E000BD0DD /* UIImage+CoreGraphics.m */; };
+		BAF00D80221BBC30000BD0DD /* HRColorInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF00D72221BBC2E000BD0DD /* HRColorInfoView.m */; };
+		BAF00D81221BBC30000BD0DD /* HRHSVColorUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF00D73221BBC2F000BD0DD /* HRHSVColorUtil.m */; };
+		BAF00D82221BBC30000BD0DD /* HRColorCursor.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF00D78221BBC2F000BD0DD /* HRColorCursor.m */; };
+		BAF00D83221BBC30000BD0DD /* HRBrightnessSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF00D79221BBC2F000BD0DD /* HRBrightnessSlider.m */; };
+		BAF00D9D221BDF6E000BD0DD /* RNColorPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF00D9C221BDF6E000BD0DD /* RNColorPanel.m */; };
+		BAF00DA0221BF79A000BD0DD /* HRColorUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF00D9F221BF79A000BD0DD /* HRColorUtils.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		58B511D91A9E6C8500147676 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		134814201AA4EA6300B7C361 /* libRNColorPanel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNColorPanel.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3E7B5881CC2AC0600A0062D /* RNColorPanelManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNColorPanelManager.h; sourceTree = "<group>"; };
+		B3E7B5891CC2AC0600A0062D /* RNColorPanelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNColorPanelManager.m; sourceTree = "<group>"; };
+		BAF00D6A221BBC2E000BD0DD /* HRColorMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRColorMapView.m; sourceTree = "<group>"; };
+		BAF00D6B221BBC2E000BD0DD /* HRColorPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRColorPickerView.m; sourceTree = "<group>"; };
+		BAF00D6C221BBC2E000BD0DD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAF00D6D221BBC2E000BD0DD /* HRHSVColorUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRHSVColorUtil.h; sourceTree = "<group>"; };
+		BAF00D6E221BBC2E000BD0DD /* UIImage+CoreGraphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CoreGraphics.h"; sourceTree = "<group>"; };
+		BAF00D6F221BBC2E000BD0DD /* HRBrightnessCursor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRBrightnessCursor.m; sourceTree = "<group>"; };
+		BAF00D70221BBC2E000BD0DD /* UIImage+CoreGraphics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CoreGraphics.m"; sourceTree = "<group>"; };
+		BAF00D71221BBC2E000BD0DD /* HRColorMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRColorMapView.h; sourceTree = "<group>"; };
+		BAF00D72221BBC2E000BD0DD /* HRColorInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRColorInfoView.m; sourceTree = "<group>"; };
+		BAF00D73221BBC2F000BD0DD /* HRHSVColorUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRHSVColorUtil.m; sourceTree = "<group>"; };
+		BAF00D74221BBC2F000BD0DD /* HRBrightnessSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRBrightnessSlider.h; sourceTree = "<group>"; };
+		BAF00D75221BBC2F000BD0DD /* HRBrightnessCursor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRBrightnessCursor.h; sourceTree = "<group>"; };
+		BAF00D76221BBC2F000BD0DD /* HRColorCursor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRColorCursor.h; sourceTree = "<group>"; };
+		BAF00D77221BBC2F000BD0DD /* HRColorPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRColorPickerView.h; sourceTree = "<group>"; };
+		BAF00D78221BBC2F000BD0DD /* HRColorCursor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRColorCursor.m; sourceTree = "<group>"; };
+		BAF00D79221BBC2F000BD0DD /* HRBrightnessSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRBrightnessSlider.m; sourceTree = "<group>"; };
+		BAF00D7A221BBC2F000BD0DD /* HRColorPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRColorPicker.h; sourceTree = "<group>"; };
+		BAF00D7B221BBC30000BD0DD /* HRColorInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRColorInfoView.h; sourceTree = "<group>"; };
+		BAF00D9B221BDF6E000BD0DD /* RNColorPanel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNColorPanel.h; sourceTree = "<group>"; };
+		BAF00D9C221BDF6E000BD0DD /* RNColorPanel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNColorPanel.m; sourceTree = "<group>"; };
+		BAF00D9E221BF79A000BD0DD /* HRColorUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HRColorUtils.h; sourceTree = "<group>"; };
+		BAF00D9F221BF79A000BD0DD /* HRColorUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRColorUtils.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58B511D81A9E6C8500147676 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		134814211AA4EA7D00B7C361 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				134814201AA4EA6300B7C361 /* libRNColorPanel.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58B511D21A9E6C8500147676 = {
+			isa = PBXGroup;
+			children = (
+				BAF00D9E221BF79A000BD0DD /* HRColorUtils.h */,
+				BAF00D9F221BF79A000BD0DD /* HRColorUtils.m */,
+				BAF00D75221BBC2F000BD0DD /* HRBrightnessCursor.h */,
+				BAF00D6F221BBC2E000BD0DD /* HRBrightnessCursor.m */,
+				BAF00D74221BBC2F000BD0DD /* HRBrightnessSlider.h */,
+				BAF00D79221BBC2F000BD0DD /* HRBrightnessSlider.m */,
+				BAF00D76221BBC2F000BD0DD /* HRColorCursor.h */,
+				BAF00D78221BBC2F000BD0DD /* HRColorCursor.m */,
+				BAF00D7B221BBC30000BD0DD /* HRColorInfoView.h */,
+				BAF00D72221BBC2E000BD0DD /* HRColorInfoView.m */,
+				BAF00D71221BBC2E000BD0DD /* HRColorMapView.h */,
+				BAF00D6A221BBC2E000BD0DD /* HRColorMapView.m */,
+				BAF00D7A221BBC2F000BD0DD /* HRColorPicker.h */,
+				BAF00D77221BBC2F000BD0DD /* HRColorPickerView.h */,
+				BAF00D6B221BBC2E000BD0DD /* HRColorPickerView.m */,
+				BAF00D6D221BBC2E000BD0DD /* HRHSVColorUtil.h */,
+				BAF00D73221BBC2F000BD0DD /* HRHSVColorUtil.m */,
+				BAF00D6C221BBC2E000BD0DD /* Info.plist */,
+				BAF00D6E221BBC2E000BD0DD /* UIImage+CoreGraphics.h */,
+				BAF00D70221BBC2E000BD0DD /* UIImage+CoreGraphics.m */,
+				BAF00D9B221BDF6E000BD0DD /* RNColorPanel.h */,
+				BAF00D9C221BDF6E000BD0DD /* RNColorPanel.m */,
+				B3E7B5881CC2AC0600A0062D /* RNColorPanelManager.h */,
+				B3E7B5891CC2AC0600A0062D /* RNColorPanelManager.m */,
+				134814211AA4EA7D00B7C361 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58B511DA1A9E6C8500147676 /* RNColorPanel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNColorPanel" */;
+			buildPhases = (
+				58B511D71A9E6C8500147676 /* Sources */,
+				58B511D81A9E6C8500147676 /* Frameworks */,
+				58B511D91A9E6C8500147676 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNColorPanel;
+			productName = RCTDataManager;
+			productReference = 134814201AA4EA6300B7C361 /* libRNColorPanel.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58B511D31A9E6C8500147676 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+					58B511DA1A9E6C8500147676 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RNColorPanel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 58B511D21A9E6C8500147676;
+			productRefGroup = 58B511D21A9E6C8500147676;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58B511DA1A9E6C8500147676 /* RNColorPanel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58B511D71A9E6C8500147676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAF00D7E221BBC30000BD0DD /* HRBrightnessCursor.m in Sources */,
+				BAF00D82221BBC30000BD0DD /* HRColorCursor.m in Sources */,
+				BAF00D9D221BDF6E000BD0DD /* RNColorPanel.m in Sources */,
+				BAF00D83221BBC30000BD0DD /* HRBrightnessSlider.m in Sources */,
+				BAF00D81221BBC30000BD0DD /* HRHSVColorUtil.m in Sources */,
+				BAF00D7F221BBC30000BD0DD /* UIImage+CoreGraphics.m in Sources */,
+				B3E7B58A1CC2AC0600A0062D /* RNColorPanelManager.m in Sources */,
+				BAF00D7D221BBC30000BD0DD /* HRColorPickerView.m in Sources */,
+				BAF00DA0221BF79A000BD0DD /* HRColorUtils.m in Sources */,
+				BAF00D80221BBC30000BD0DD /* HRColorInfoView.m in Sources */,
+				BAF00D7C221BBC30000BD0DD /* HRColorMapView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		58B511ED1A9E6C8500147676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		58B511EE1A9E6C8500147676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58B511F01A9E6C8500147676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = RNColorPanel;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		58B511F11A9E6C8500147676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = RNColorPanel;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RNColorPanel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B511ED1A9E6C8500147676 /* Debug */,
+				58B511EE1A9E6C8500147676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNColorPanel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B511F01A9E6C8500147676 /* Debug */,
+				58B511F11A9E6C8500147676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58B511D31A9E6C8500147676 /* Project object */;
+}
