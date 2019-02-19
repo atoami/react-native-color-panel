@@ -11,7 +11,7 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
 
-public class ColorHueSatView extends View {
+public class RNColorHueSatView extends View {
 	public static final int TILE_DEFAULT_COUNT = 20;
 	public static final int TILE_GAP = 2;
 	public static final int MARGIN = 10;
@@ -32,15 +32,15 @@ public class ColorHueSatView extends View {
 	
 	private RNColorPanel mainColorPanel;
 
-	public ColorHueSatView(Context context) {
+	public RNColorHueSatView(Context context) {
 		this(context, null);
 	}
 
-	public ColorHueSatView(Context context, AttributeSet attrs) {
+	public RNColorHueSatView(Context context, AttributeSet attrs) {
 		this(context, attrs, 0);
 	}
 
-	public ColorHueSatView(Context context, AttributeSet attrs, int defStyle) {
+	public RNColorHueSatView(Context context, AttributeSet attrs, int defStyle) {
 		super(context, attrs, defStyle);
 
 		selectedPaint.setStyle(Paint.Style.STROKE);

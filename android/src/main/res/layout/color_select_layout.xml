@@ -21,7 +21,7 @@
             android:layout_height="70dp"            
             android:gravity="center_vertical">
                         
-	        <com.ato.reactlibrary.SelectedColorView
+	        <com.ato.reactlibrary.RNSelectedColorView
 	            android:id="@+id/selected_color_view"
 	            android:layout_marginTop="10dp"
 	            android:layout_marginBottom="15dp"
@@ -56,7 +56,7 @@
 	            	            
 	        </LinearLayout>
 	    
-			<com.ato.reactlibrary.ColorValView
+			<com.ato.reactlibrary.RNColorValView
 			    android:id="@+id/color_val_view"
 			    android:layout_width="match_parent"
 			    android:layout_height="50dp"
@@ -65,7 +65,7 @@
 			    android:layout_toRightOf="@id/view_container2"/>
 		</RelativeLayout>
 		
-		<com.ato.reactlibrary.ColorHueSatView
+		<com.ato.reactlibrary.RNColorHueSatView
 			android:id="@+id/color_huesat_view"
 			android:layout_width="match_parent"
 			android:layout_height="match_parent"

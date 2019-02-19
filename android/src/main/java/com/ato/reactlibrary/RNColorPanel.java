@@ -14,9 +14,9 @@ import com.facebook.react.uimanager.events.RCTEventEmitter;
 
 public class RNColorPanel extends LinearLayout {
 
-    public ColorHueSatView hueSatView;
-    public ColorValView valView;
-    public SelectedColorView selectedColorView;
+    public RNColorHueSatView hueSatView;
+    public RNColorValView valView;
+    public RNSelectedColorView selectedColorView;
     public TextView rvalueTxt;
     public TextView gvalueTxt;
     public TextView bvalueTxt;
@@ -29,13 +29,13 @@ public class RNColorPanel extends LinearLayout {
         View mainContentView = inflater.inflate(R.layout.color_select_layout, null);
         addView(mainContentView);
 
-        hueSatView = (ColorHueSatView)mainContentView.findViewById(R.id.color_huesat_view);
+        hueSatView = (RNColorHueSatView)mainContentView.findViewById(R.id.color_huesat_view);
         hueSatView.setMainPanel(this);
 
-        valView = (ColorValView)mainContentView.findViewById(R.id.color_val_view);
+        valView = (RNColorValView)mainContentView.findViewById(R.id.color_val_view);
         valView.setMainPanel(this);
 
-        selectedColorView = (SelectedColorView)mainContentView.findViewById(R.id.selected_color_view);
+        selectedColorView = (RNSelectedColorView)mainContentView.findViewById(R.id.selected_color_view);
         selectedColorView.setMainPanel(this);
 
         rvalueTxt = (TextView)mainContentView.findViewById(R.id.rvalue_txt);

@@ -12,7 +12,7 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
 
-public class ColorValView extends View {
+public class RNColorValView extends View {
 	public static final int MARGIN_TOP = 5;
 	public static final int MARGIN_BOTTOM = 5;
 	public static final int MARGIN_LEFT = 15;
@@ -28,15 +28,15 @@ public class ColorValView extends View {
 	
 	private RNColorPanel mainColorPanel;
 
-	public ColorValView(Context context) {
+	public RNColorValView(Context context) {
 		this(context, null);
 	}
 
-	public ColorValView(Context context, AttributeSet attrs) {
+	public RNColorValView(Context context, AttributeSet attrs) {
 		this(context, attrs, 0);
 	}
 
-	public ColorValView(Context context, AttributeSet attrs, int defStyle) {
+	public RNColorValView(Context context, AttributeSet attrs, int defStyle) {
 		super(context, attrs, defStyle);
 
 		hsv[0] = 0.f;

@@ -8,7 +8,7 @@ import android.graphics.RectF;
 import android.util.AttributeSet;
 import android.view.View;
 
-public class SelectedColorView extends View {
+public class RNSelectedColorView extends View {
 	public static final int MARGIN = 5;
 	
 	private float[] hsv = {0.f, 1.f, 1.f};
@@ -17,15 +17,15 @@ public class SelectedColorView extends View {
 	
 	private RNColorPanel mainColorPanel;
 	
-	public SelectedColorView(Context context) {
+	public RNSelectedColorView(Context context) {
 		this(context, null);
 	}
 
-	public SelectedColorView(Context context, AttributeSet attrs) {
+	public RNSelectedColorView(Context context, AttributeSet attrs) {
 		this(context, attrs, 0);
 	}
 
-	public SelectedColorView(Context context, AttributeSet attrs, int defStyle) {
+	public RNSelectedColorView(Context context, AttributeSet attrs, int defStyle) {
 		super(context, attrs, defStyle);
 
 		paint.setStyle(Paint.Style.FILL);
