@@ -2,9 +2,9 @@
 # react-native-color-panel
 
 <div>
-<img width="150" height="280" style="float: left" src="https://user-images.githubusercontent.com/17483938/53002929-c8def500-3425-11e9-9b5f-02948b3aad98.gif" />
-<img width="150" height="280" style="float: left" src="https://user-images.githubusercontent.com/17483938/53003144-3559f400-3426-11e9-8212-6a7cd27d42f0.PNG" />
-<img width="150" height="280" style="float: left" src="https://user-images.githubusercontent.com/17483938/53003146-3559f400-3426-11e9-9752-5c0c73afa92e.PNG" />
+<img width="200" height="350" style="float: left" src="https://user-images.githubusercontent.com/17483938/53002929-c8def500-3425-11e9-9b5f-02948b3aad98.gif" />
+<img width="200" height="350" style="float: left" src="https://user-images.githubusercontent.com/17483938/53003144-3559f400-3426-11e9-8212-6a7cd27d42f0.PNG" />
+<img width="200" height="350" style="float: left" src="https://user-images.githubusercontent.com/17483938/53003146-3559f400-3426-11e9-9752-5c0c73afa92e.PNG" />
 </div>
 
 ## Getting started
