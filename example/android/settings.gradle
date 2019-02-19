@@ -1,0 +1,5 @@
+rootProject.name = 'color_demo_app'
+include ':react-native-color-panel'
+project(':react-native-color-panel').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-color-panel/android')
+
+include ':app'
