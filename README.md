@@ -11,6 +11,10 @@
 
 `$ npm install react-native-color-panel --save`
 
+or
+
+`$ yarn add react-native-color-panel`
+
 ### Mostly automatic installation
 
 `$ react-native link react-native-color-panel`
