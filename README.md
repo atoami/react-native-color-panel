@@ -43,7 +43,7 @@ or
   	```
       compile project(':react-native-color-panel')
   	```
-
+  	
 ## Usage
 ```javascript
 import ColorPanel from 'react-native-color-panel';
@@ -56,3 +56,14 @@ import ColorPanel from 'react-native-color-panel';
   onColorChange={color => this.setState({ selectedColor: color })}
 />
 ```
+
+
+## Props
+
+| Property                                |                   Type                   | Description                           |
+| --------------------------------------- | :--------------------------------------: | :--------------------------------------- |
+| fullColor                                |           bool (default true)           | Enable or disable full color mode               |
+| color                                   |                  color (default 'red')                  | Initial selection color |
+| brightnessLowerLimit                    |                  number (default 0)         | the lowest value of brightness  |
+| onColorChange                    |           function (default null)           | Callback to receive color change event 
+
