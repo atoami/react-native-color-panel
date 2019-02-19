@@ -42,8 +42,13 @@
 
 ## Usage
 ```javascript
-import RNColorPanel from 'react-native-color-panel';
+import ColorPanel from 'react-native-color-panel';
 
-// TODO: What to do with the module?
-RNColorPanel;
+<ColorPanel
+  style={{ flex: 1 }}
+  fullColor={true}
+  color={this.state.selectedColor}
+  brightnessLowerLimit={0}
+  onColorChange={color => this.setState({ selectedColor: color })}
+/>
 ```
