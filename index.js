@@ -9,7 +9,6 @@ class ColorPanel extends React.Component {
       return;
     }
 
-    // process raw event...
     this.props.onColorChange(event.nativeEvent.color);
   }
 

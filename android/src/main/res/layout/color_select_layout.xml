@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+    <RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:id="@+id/viewContainer"
+		android:paddingTop="8dp"
+		android:paddingRight="8dp"
+		android:paddingBottom="8dp"
+		android:paddingLeft="8dp"
+		android:clipToPadding="false"
+		android:gravity="center">
+        
+        <RelativeLayout android:id="@+id/view_container1"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"            
+            android:gravity="center_vertical">
+                        
+	        <com.ato.reactlibrary.SelectedColorView
+	            android:id="@+id/selected_color_view"
+	            android:layout_marginTop="10dp"
+	            android:layout_marginBottom="15dp"
+	            android:layout_width="50dp"
+	            android:layout_height="50dp"/> 
+	        
+	        <LinearLayout android:id="@+id/view_container2"
+	            android:layout_width="45dp"
+	            android:layout_height="match_parent"	            
+	            android:layout_toRightOf="@id/selected_color_view"
+	            android:layout_margin="5dp"
+	            android:orientation="vertical"
+	            android:gravity="center">
+	            
+	            <TextView android:id="@+id/rvalue_txt"
+	                android:layout_width="match_parent"
+	                android:layout_height="20dp"	               
+	                android:textSize="12sp"
+	                android:textColor="#FF303030"/>
+	            
+	            <TextView android:id="@+id/gvalue_txt"
+	                android:layout_width="match_parent"
+	                android:layout_height="20dp"	               
+	                android:textSize="12sp"
+	                android:textColor="#FF303030"/>
+	            
+	            <TextView android:id="@+id/bvalue_txt"
+	                android:layout_width="match_parent"
+	                android:layout_height="20dp"	                
+	                android:textSize="12sp"
+	                android:textColor="#FF303030"/>
+	            	            
+	        </LinearLayout>
+	    
+			<com.ato.reactlibrary.ColorValView
+			    android:id="@+id/color_val_view"
+			    android:layout_width="match_parent"
+			    android:layout_height="50dp"
+			    android:layout_marginTop="10dp"
+	            android:layout_marginBottom="15dp"
+			    android:layout_toRightOf="@id/view_container2"/>
+		</RelativeLayout>
+		
+		<com.ato.reactlibrary.ColorHueSatView
+			android:id="@+id/color_huesat_view"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_below="@id/view_container1"
+			android:layout_marginTop="10dp"/>				
+	</RelativeLayout>
+</RelativeLayout>
