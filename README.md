@@ -67,3 +67,5 @@ import ColorPanel from 'react-native-color-panel';
 | brightnessLowerLimit                    |                  number (default 0)         | the lowest value of brightness  |
 | onColorChange                    |           function (default null)           | Callback to receive color change event 
 
+## Inspiration
+[Color-Picker-for-iOS](https://github.com/hayashi311/Color-Picker-for-iOS)
