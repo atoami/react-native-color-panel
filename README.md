@@ -62,9 +62,9 @@ import ColorPanel from 'react-native-color-panel';
 
 | Property                                |                   Type                   | Description                           |
 | --------------------------------------- | :--------------------------------------: | :--------------------------------------- |
-| fullColor                                |           bool (default true)           | Enable or disable full color mode               |
-| color                                   |                  color (default 'red')                  | Initial selection color |
-| brightnessLowerLimit                    |                  number (default 0)         | the lowest value of brightness  |
+| fullColor                                |           bool (default true) [iOS only]           | Enable or disable full color mode               |
+| color                                   |                  color (default 'red') [iOS only]                  | Initial selection color |
+| brightnessLowerLimit                    |                  number (default 0) [iOS only]         | the lowest value of brightness  |
 | onColorChange                    |           function (default null)           | Callback to receive color change event 
 
 ## Inspiration
