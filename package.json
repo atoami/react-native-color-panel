@@ -18,6 +18,7 @@
     "palette"
   ],
   "author": "Ato",
+  "homepage": "https://github.com/atoami/react-native-color-panel#readme",
   "license": "MIT",
   "dependencies": {
     "prop-types": "^15.6.1"
